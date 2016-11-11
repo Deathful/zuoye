@@ -1,0 +1,106 @@
+console.log("edqwdwq")
+@charset "UTF-8";
+
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: #000;}
+ol,ul{list-style: none;}
+img{border:none;}
+
+body{
+	/*background-color: blue;*/
+}
+#D1{
+	height: 60px;
+}
+#D1 img{
+	margin-left: -330px;
+}
+#D2{
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	top: 0px;
+	color: #ffffff;
+	background-color: #323232;
+}
+#D2 img{
+	vertical-align: middle;
+}
+#D2 .img1{
+	float: left;
+	margin-left: 29px;
+}
+#D2 ul:first-of-type{
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+}
+#D2 ul:first-of-type li{
+	float: left;
+	margin-left: 30px;
+}
+#D2 ul:first-of-type li a{
+	color: #c0c0c0;
+}
+#D2 ul:first-of-type li:nth-child(5) a{
+	color: #10b03f;
+}
+#CommunityDiv{
+	z-index: 4;
+	position: absolute;
+	width: 148px;
+	height: 91px;
+	background-color: #ffffff;
+	border-radius:5px;
+	top:95px;
+	left: 310px;
+	display: none;
+}
+#ForumDiv{
+	z-index: 4;
+	position: absolute;
+	width: 488px;
+	height: 283px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	top:95px;
+	left:462px;
+	display: none;
+}
+#D2 ul:last-of-type{
+	float: right;
+}
+#D2 ul:last-of-type li{
+	float: left;
+	margin-right: 20px;
+}
+#D2 ul:last-of-type li a{
+	color: #c0c0c0;
+	font-size:9 12px;
+	font-weight: bold;
+}
+#seekLi{
+	height: 20px;
+	font-size: 0px;
+	line-height: 0px;
+	margin-top: 5px;
+}
+#clickImg{
+	margin-top: 4px;
+}
+#seekLi div{
+	display: none;
+}
+#seekLi div input{
+	width: 150px;
+	height: 20px;
+	border:none;
+	border-radius: 3px 0 0 3px;
+	background-color: #f0f0f0;
+	outline:none;
+}
+#seekLi div img{
+	font-size: 0px;
+	vertical-align: bottom;;
+}
